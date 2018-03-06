@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+fieldset,img,abbr,acronym{border:none}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}
+em{font-style:normal}
+a,input:focus{outline:none}
+input{border:none;background:none;}
+button{border:none;vertical-align:middle;cursor:pointer}
+label{cursor:pointer}
+table{border-collapse:collapse;border-spacing:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-weight:normal;font-style:normal;}ol,ul{list-style:none;}
+
+body {
+	font-family:  "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.2em;
+	background-color: #f3f3f3;
+	background-image: url(../images/grunge_wall.png);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: 0px 0px;
+	color: #444;
+	height: 100%;
+	width: auto;
+}
+.resumeBody {
+    margin:20px;
+    font-size:12px;
+    font-family:"FangSong_GB2312",simsun;
+    color:#555;
+}
+
+#wrapper {max-width: 700px; margin: 60px auto 30px; padding:60px; background: rgb(255, 251, 233); box-shadow: 0 1px 3px rgba(230, 255, 145, 0.85); position: relative;}
+ul {margin: 0 0 0 15px; position: relative;}
+li {margin: 0 0 5px 0; font-size: 13px;}
+p {text-align: justify; font-size: 13px;}
+.clear {clear: both;}
+a {color: #444; text-decoration: none;}
+a:hover {text-decoration:underline;}
+
+.resumeBody strong, .resumeBody h1, .resumeBody h5, .resumeBody h6 {
+    color:#555;
+}
+.resumeBody h1 {
+    font:bold 38px/12px 'Microsoft YaHei',sans-serif;
+    padding: 15px;
+    float: left;
+    font-size:38px;
+    left:30px;
+    width:50%;
+    margin-bottom:25px;
+    height:42px;
+    /*line-height:1em;*/
+}
+.resumeBody .headerImg {
+    padding:5px;
+    border:1px solid #2fdd36;
+}
+.resumeBody .ver-line {
+    color:#555;
+    font-size:14px;
+    padding:0 5px;
+}
+.resumeBody h5,.resumeBody h6, .resumeBody strong {
+    font-weight:bold;
+}
+/*.resumeBody .details dt {*/
+    /*background:url('http://img03.zhaopin.cn/2012/img/my/v5/lookResumebg.jpg') no-repeat 5px 0;*/
+/*}*/
+
+h5{
+	clear: both;
+	font:bold 20px/12px 'verdana',sans-serif;
+	margin: 20px -60px;
+	border-left: 52px solid #000000;
+	color: #313ac6;
+	padding:1px 0 0 8px;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+	position: relative;
+}
+
+/*.resumeBody .details dt h5 {*/
+    /*height:26px;*/
+    /*line-height:26px;*/
+    /*color: #aa2a23;*/
+    /*text-indent:20px;*/
+    /*font-size:14px;*/
+/*}*/
+.resumeBody .summary, .resumeBody .details dd {
+    padding-left:0px;
+    margin:10px;
+    line-height:1.8em;
+    margin-bottom:25px;
+}
+.resumeBody .certificates, .resumeBody .training, .resumeBody .graduates, .resumeBody .social, .resumeBody .education-background, .resumeBody .project-experience, .resumeBody .work-experience {
+    border-bottom:1px dotted #51cc3f;
+    margin-bottom:10px;
+    padding-bottom:5px;
+}
+.resumeBody .certificates:last-child, .resumeBody .training:last-child, .resumeBody .graduates:last-child, .resumeBody .education-background:last-child, .resumeBody .project-experience:last-child, .resumeBody .work-experience:last-child {
+    border-bottom:0;
+}
+.resumeBody .training h6 {
+    margin-bottom:10px;
+}
+.resumeBody .em {
+    font-style:em;
+}
+
+ul#skills.ready {background: none;}
+ul#skills li {
+	position: relative;
+	right: 100%;
+	background-color: #444;
+	color: #fff;
+    font:bold 9px/20px sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    padding:3px 1.1428571428571428% 0;
+    text-transform: uppercase;
+    z-index: 1;
+}
+ul#skills li:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 5px;
+	line-height: 26px;
+	width: 50px;
+	text-align: right;
+	color: #aaa;
+}
+ul#skills li.s100:after {content: "100%";}
+ul#skills li.s90:after {content: "90%";}
+ul#skills li.s80:after {content: "80%";}
+ul#skills li.s70:after {content: "70%";}
+ul#skills li.s60:after {content: "60%";}
+ul#skills li.s50:after {content: "50%";}
+ul#skills li.s40:after {content: "40%";}
+ul#skills li.s30:after {content: "30%";}
+ul#skills li.s20:after {content: "20%";}
+ul#skills li.s10:after {content: "10%";}
+
+ul#skills li span {display: none;}
+
+ul#skills li:hover {background: #7d9ddb;}
+
+li.s100 {width: 97.71428571428571%;}
+li.s90 {width: 87.71428571428571%;}
+li.s80 {width: 77.71428571428571%;}
+li.s70 {width: 67.71428571428571%;}
+li.s60 {width: 57.714285714285715%;}
+li.s50 {width: 47.714285714285715%;}
+li.s40 {width: 37.714285714285715%;}
+li.s30 {width: 27.714285714285715%;}
+li.s20 {width: 17.714285714285715%;}
+li.s10 {width: 7.714285714285714%;}
+
+#socialIcons {width: 30%; height: 30px; position: absolute;
+    top: 82px;
+    right: 70px; text-align: right;}
+.socialIcon {
+	width: 30px;
+	height: 30px;
+	margin: 0 0 0 3px;
+	display: inline-block;
+	background-image: url(../images/new.png);
+	border: none;
+}
+.socialIcon:hover {border: none;}
+
+#blogIcon {background-position: 0 0;}
+#emailIcon {background-position: -30px 0;}
+#githubIcon {background-position: -60px 0;}
+#phoneIcon {background-position: -90px 0;}
+#qqIcon {background-position: -120px 0;}
+#wechatIcon {background-position: -150px 0;}
+
+/*#phoneIcon::after{*/
+  /*content: attr(title);*/
+  /*position: absolute;*/
+  /*background: #8287ba;*/
+  /*top: 35px;*/
+  /*border-radius: 4px;*/
+  /*right: 130px;*/
+  /*!*transform-origin: top right;*!*/
+  /*transform: scale(0);*/
+/*}*/
+
+/*#phoneIcon:hover::after{*/
+  /*transform:scale(1);*/
+  /*opacity: 1;*/
+/*}*/
+
+#wechatIcon::after{
+  content: url(../images/WeChat_QR.png);
+  position: absolute;
+  right: -80px;
+  top: 35px;
+  z-index: 99;
+  width:120px;
+  height: 120px;
+  border: 5px solid #898cba;
+  border-radius: 4px;
+  transform-origin: top right;
+  transform: scale(0);
+}
+
+#wechatIcon:hover::after{
+  transform:scale(1);
+  opacity: 1;
+}
+
+#qqIcon::after{
+  content: url(../images/qq_QR.png);
+  position: absolute;
+  right: -50px;
+  top: 35px;
+  z-index: 99;
+  width:120px;
+  height: 120px;
+  border: 5px solid #898cba;
+  border-radius: 4px;
+  transform-origin: top right;
+  transform: scale(0);
+}
+
+#qqIcon:hover::after{
+  transform:scale(1);
+  opacity: 1;
+}
+
+#blogIcon:hover {background-position: 0 -30px;}
+#emailIcon:hover {background-position: -30px -30px;}
+#githubIcon:hover {background-position: -60px -30px;}
+#phoneIcon:hover {background-position: -90px -30px;}
+#qqIcon:hover {background-position: -120px -30px;}
+#wechatIcon:hover {background-position: -150px -30px;}
+
