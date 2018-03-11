@@ -70,7 +70,7 @@ a:hover {text-decoration:underline;}
 
 h5{
 	clear: both;
-	font:bold 20px/12px 'verdana',sans-serif;
+	font:bold 20px/12px 'FangSong_GB2312',sans-serif;
 	margin: 20px -60px;
 	border-left: 52px solid #000000;
 	color: #313ac6;
@@ -78,6 +78,10 @@ h5{
 	letter-spacing: -2px;
 	text-transform: uppercase;
 	position: relative;
+}
+
+h6{
+	font:bold 13px/25px 'FangSong_GB2312',sans-serif;
 }
 
 /*.resumeBody .details dt h5 {*/
@@ -161,7 +165,7 @@ li.s10 {width: 7.714285714285714%;}
     top: 82px;
     right: 70px; text-align: right;}
 .socialIcon {
-	width: 30px;
+	width: 29.6px;
 	height: 30px;
 	margin: 0 0 0 3px;
 	display: inline-block;
